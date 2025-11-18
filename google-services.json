@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "728071397261",
+    "firebase_url": "https://wmspoof-notifications-default-rtdb.firebaseio.com",
+    "project_id": "wmspoof-notifications",
+    "storage_bucket": "wmspoof-notifications.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728071397261:android:08105a485c26cd2cf0e7c4",
+        "android_client_info": {
+          "package_name": "com.walmart.spoof"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoA0l8E3WxRj1BiZ3KQNYBoc7cNbCxISw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Walmart",
+    "slug": "Walmart",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera"
+        }
+      ],
+      "expo-secure-store",
+      "expo-asset",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/adaptive-icon.png",
+          "color": "#0053e2",
+          "defaultChannel": "default"
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/icons/spark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0053e2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0053e2"
+      },
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "package": "com.walmart.spoof"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7e5a6b96-224b-42c7-9f43-ff6cffee3cb1"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="225"
+   height="225"
+   viewBox="0 0 225 225"
+   sodipodi:docname="spark19.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.4533333"
+     inkscape:cx="112.21043"
+     inkscape:cy="112.78958"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       style="display:inline;fill:#888888;stroke:none;stroke-width:0.646834;fill-opacity:1"
+       d="m 68.561115,114.44818 c -12.936434,-0.57556 -27.868349,4.9814 -40.667659,7.05602 -5.844465,0.94732 -14.543786,0.97232 -19.5892876,4.24067 -9.7920586,6.34307 -4.0048747,26.7876 6.9609246,28.36571 5.192153,0.7472 11.926339,-3.15898 16.697379,-4.95771 9.850054,-3.71359 19.80109,-7.1586 29.641094,-10.90143 4.040759,-1.53699 9.55322,-2.60716 12.972295,-5.29965 6.487691,-5.109 2.093711,-18.14284 -6.014746,-18.50361"
+       id="path20"
+       inkscape:transform-center-x="71.998907"
+       inkscape:transform-center-y="20.290097" />
+    <path
+       style="display:inline;fill:#888888;stroke:none;stroke-width:0.646834;fill-opacity:1"
+       d="m 24.2039,48.104614 c -8.307423,2.400564 -16.1564667,16.985669 -9.927112,24.676047 2.838028,3.503673 8.582138,4.875393 12.514454,6.77328 10.511551,5.073276 21.223187,9.719394 31.694887,14.867721 4.11295,2.022083 10.82202,6.569628 15.524025,5.10179 C 79.793727,97.717995 84.87829,88.738876 80.792934,83.326147 77.403843,78.835903 70.866174,75.603945 66.248144,72.485191 57.526276,66.594963 48.999466,60.378441 40.374766,54.341374 35.529265,50.949659 30.588986,46.259558 24.2039,48.104614"
+       id="path18"
+       inkscape:transform-center-x="65.349208"
+       inkscape:transform-center-y="-40.266138" />
+  </g>
+</svg>
