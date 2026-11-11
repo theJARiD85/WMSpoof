@@ -1,0 +1,136 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+dist-web/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+credentials.json
+config/android/keystore.properties
+android/keystore.properties
+android/app/keystore.properties
+android/app/production-keystore.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.ps1
+*.lock
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files and server-side environment exports
+.env
+.env*.local
+.env.development
+.env.production
+.token-encryption-key
+package-lock.
+
+# Private Roboflow pilot source photos and completed manifests
+/tools/roboflow/private-data/
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# generated native folders
+/ios
+/android/build
+/android/.gradle
+/android/.kotlin
+/modules/keepflip-scan-proof/android/build/
+/modules/keepflip-scan-proof/android/.gradle/
+/modules/keepflip-scan-proof/android/.kotlin/
+/modules/keepflip-ar-measure/android/build/
+/modules/keepflip-ar-measure/android/.gradle/
+/modules/keepflip-ar-measure/android/.kotlin/
+/modules/keepflip-in-app-review/android/build/*
+/modules/keepflip-in-app-review/android/.gradle/*
+/modules/keepflip-in-app-review/android/.kotlin/*
+/backend
+/.appodeal-patch-work
+/.expo-dev-launcher-clean-patch
+/.gradle-pika-test
+/.gradle-user-home
+/.keepflip-gradle-user-home
+/.vision-resizer-clean-patch
+# Keep the eBay Function source reviewable and deployable. Their templates
+# contain placeholders only; all live credentials remain Appwrite variables.
+/backend/
+/backend/functions/
+/functions
+/backend/*
+/backend/functions/**
+/backend/functions/ebay-oauth/
+/backend/functions/ebay-oauth/**
+/backend/functions/keepflip-ebay-oauth/
+/backend/functions/keepflip-ebay-oauth/**
+/backend/functions/keepflip-ebay-oauth-helper/
+/backend/functions/keepflip-ebay-oauth-helper/**
+
+# Keep the new notification delivery Function source reviewable. Existing
+# backend Functions remain ignored until their migrations are intentionally
+# reviewed and brought under source control.
+!/backend/
+/backend/*
+!/backend/functions/
+/backend/functions/*
+!/backend/functions/keepflip-notification-push/
+!/backend/functions/keepflip-notification-push/**
+/backend/functions/keepflip-books/
+/backend/functions/keepflip-books/**
+/backend/functions/ebay-account-deletion/
+/backend/functions/ebay-account-deletion/**
+/.backups
+/.keepflip-gradle-user-home
+/.codex-adb-home
+/.agents
+/.cursor
+/.venv
+.dyad/
+/work
+/tools
+/tools/*
+!/tools/
+!/tools/birefnet/
+!/tools/birefnet/**
+/tools/birefnet/__pycache__/
+/skills
+/scripts
+!/scripts/
+scripts/*
+!/scripts/apply-responsive-layout.cjs
+!/scripts/test-apply-responsive-layout.cjs
+!/scripts/make-ui-values-responsive.cjs
+!/scripts/test-make-ui-values-responsive.cjs
+!/scripts/provision-crosslisting-form-configs.ps1
+/runs
+/output
+/modules/keepflip-ar-measure/android/build
+/modules/keepflip-ar-measure/android/.gradle
+.tmp.driveupload/*
+docs/*
+!docs/CROSSLISTING_FORM_SELECTORS.md
+!docs/LISTING_WORKSPACE_SCHEMA.md
+backend/functions/ebay-account-deletion
